@@ -6,7 +6,7 @@ main(){
 	int idade;
 	char sexo;
 	float nota;
-	/* teste*/
+	
 	printf("Digite seu nome :");
 	gets(nome);
 	
