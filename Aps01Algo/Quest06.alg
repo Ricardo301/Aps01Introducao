@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Quest06"
 
 var
 soma,par,impar:inteiro
