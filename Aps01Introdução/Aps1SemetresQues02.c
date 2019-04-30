@@ -1,11 +1,11 @@
 #include<stdio.h>
+#include <stdlib.h>
 
 main(){
-	int num[9];
-	int soma;
+	int num[9], soma,i;
 	float media;
-	int i;
-	for(i = 0; i<10;i++){
+	
+	for( i = 0; i<10;i++){
 		printf("Digite um numero : ");
 		scanf("%d",&num[i]);
 	}
