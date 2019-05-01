@@ -14,7 +14,7 @@ senao
         escreval("Eleitor obrigatorio")
         
      senao
-          escreval("eletiro facultativo")
+          escreval("Eletiro facultativo")
           
         fimse
  fimse

@@ -19,7 +19,8 @@ leia(ano)
  idade<- 2019-ano
  limpatela
 
- escreval("Aluno ",nome," tem ",idade," anos")
+ escreval("Aluno ",nome," tem ",idade," anos.")
+ escreval("Data de nascimento:")
  
  escolha mes
  

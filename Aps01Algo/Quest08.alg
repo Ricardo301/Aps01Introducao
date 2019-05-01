@@ -8,7 +8,7 @@ inicio
 
 
 repita
-   escreva("Idade")
+   escreva("Idade: ")
    leia(idade)
 
    se (idade = 0) entao
@@ -37,4 +37,9 @@ repita
 
 
 ate(controle)
+escreval("=================================================================")
+escreval("Faixa 1:Menor que 20: ",faixa1)
+escreval("Faixa 2:50-60: ",faixa2)
+escreval("Faixa 3:80-90: ",faixa3)
+escreval("Faixa 1:Maior ou igual a 100: ",faixa4)
 fimalgoritmo
