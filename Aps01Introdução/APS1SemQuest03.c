@@ -3,8 +3,9 @@
 
 main(){
 	int num;
-	printf("Digite um numero :");
+	printf("Digite um numero: ");
 	scanf("%d",&num);
+	printf("\n");
 	
 	if(num>=55 && num<=85){
 		printf("Numero entre 55 e 85\n");

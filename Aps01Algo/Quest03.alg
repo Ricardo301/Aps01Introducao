@@ -1,5 +1,6 @@
 algoritmo "Quest03"
-
+//Ricardo de Jesus Santos
+//30/04/19
 var
 
 nome,msg:caractere
@@ -38,7 +39,7 @@ se (media>=7) entao
 senao
    msg<-"Reprovado"
 fimse
-escreval("=======================================================")
+escreval("=====================================================================================")
 escreval("Aluno: ",nome)
 escreval("AS duas maiores notas são: ",maior," / ",maior2)
 escreval("Media: ",media)

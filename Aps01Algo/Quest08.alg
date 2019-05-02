@@ -1,5 +1,6 @@
 algoritmo "Quest08"
-
+//Ricardo de Jesus Santos
+//30/04/19
 var
 controle:logico
 idade,faixa1,faixa2,faixa3,faixa4:inteiro

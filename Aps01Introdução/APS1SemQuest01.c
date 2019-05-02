@@ -28,8 +28,8 @@ main(){
 	printf("Digite sua nota :");
 	scanf("%f",&nota);
 	
-	printf("=================================\n");
-
+	printf("============================================================================\n");
+     
 	printf("Nome = %s\n",nome);
 	printf("Idade = %d\n",idade);
 	printf("Sexo = %c\n",sexo);

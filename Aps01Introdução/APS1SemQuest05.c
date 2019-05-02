@@ -7,19 +7,19 @@ int main(){
 
 	printf("Numero: ");
 	scanf("%d",&num);
-	j=num;
-	for(num;num>=1; num--){
+    printf("\n");
+	for(i=1;i<=num;i++){
 		printf("%d ",num);
-		
-		
-	
-}
-printf("\n");
-     for(i=1;j>i;i++){
-     	printf("%d \n",j);
-     	
-     	
-	 }
+	  
+	   
+		for(j=num;j>i;j--){
+			     
+				printf("%d ",j-1);
+				 		
+		}
+		printf("\n");
+			
+	}
 
 	return 0;
 }

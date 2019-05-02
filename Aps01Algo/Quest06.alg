@@ -1,5 +1,6 @@
 algoritmo "Quest06"
-
+//Ricardo de Jesus Santos
+//30/04/19
 var
 soma,par,impar:inteiro
 inicio
@@ -14,7 +15,9 @@ para par de 0 ate 100 passo 2 faca
 fimpara
 escreval
 escreval("Soma par: ",soma)
-escreval("=====================================================================")
+escreval("")
+escreval("=================================================================================")
+escreval("")
 soma<-0
 escreval("ÍMPARES")
 para impar de 1 ate 200 passo 2 faca

@@ -1,5 +1,6 @@
 algoritmo "Quest07"
-
+//Ricardo de Jesus Santos
+//30/04/19
 var
 maior,menor,soma,i:inteiro
 inicio

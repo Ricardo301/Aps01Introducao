@@ -1,11 +1,12 @@
 algoritmo "Quest09"
-
+//Ricardo de Jesus Santos
+//30/04/19
 var
 num,i:inteiro
 controle:logico
 inicio
-
-enquanto (nao controle) faca
+controle <- verdadeiro
+enquanto (controle) faca
    escreva("Num:")
    leia(num)
    se((num>50) e (num<70)) entao
@@ -20,7 +21,7 @@ enquanto (nao controle) faca
          fimse
 
       fimpara
-      controle<- verdadeiro
+      controle <- (nao controle)
    senao
       escreval("")
       escreval("Numero invalido")
