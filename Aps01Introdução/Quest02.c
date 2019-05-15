@@ -9,14 +9,17 @@ main(){
 		printf("Digite um numero : ");
 		scanf("%d",&num[i]);
 	}
+	printf("\n");
 	printf("=============================================\n");
+	printf("\n");
 	
 	for(i =0; i<10;i++){
-		printf("Numero %d foi = %d\n",i+1,num[i]);
+		printf("Numero %d = %d\n",i+1,num[i]);
 		soma += num[i];
 		
 		
 	}
+	printf("\n");
 	media = (float)soma/10;
 	printf("Soma = %d\n",soma);
 	printf("Media = %.2f",media);

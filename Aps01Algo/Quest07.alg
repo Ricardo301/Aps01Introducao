@@ -22,6 +22,6 @@ para i de maior-1 ate menor+1 passo -1   faca
 fimpara
 
 escreval("")
-escreva("Soma:" ,soma)
+escreval("Soma:" ,soma)
 
 fimalgoritmo

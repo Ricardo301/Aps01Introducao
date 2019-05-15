@@ -41,7 +41,7 @@ senao
 fimse
 escreval("=====================================================================================")
 escreval("Aluno: ",nome)
-escreval("AS duas maiores notas são: ",maior," / ",maior2)
+escreval("AS duas maiores notas são: ",maior," /",maior2)
 escreval("Media: ",media)
 escreval("Situação: ",msg)
 
