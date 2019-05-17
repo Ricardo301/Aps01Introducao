@@ -1,25 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
-float FunPot(float x,int y){
-	float potencia = 1;
-
-		for(int i = 0;i<y;i++){
-			potencia*=x;
-		}
-		return potencia;
-	}     
-
-int main(){
-	float base;
-	int pot;
+float base;
+float result =1;
+void Calc(){
 	
+	result*=base;
+}
+
+float FunPot( int y){
+	
+	
+	for(int i = 0; i < y;i++){
+		Calc();
+	}
+	return result;
+	
+}
+	
+	   
+int main(){
+	
+	int pot;
 	printf("Digite a base: ");
 	scanf("%f",&base);
 	printf("Digite a potencia: ");
 	scanf("%d",&pot);
+     float potencia = FunPot(pot);
+     printf("\n%.2f elevado a %d =  %.2f\n",base,pot,potencia);
 	
-	float resultado = FunPot(base,pot);
-	printf("\n%.2f elevado a %d = %.2f",base,pot,resultado);
+	
+	
 	
 	
 }
