@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 
-main(){
+int main(){
 	char nome[20],endereco[40],telefone[10],celular[11];
 	int idade;
 	char sexo;
@@ -37,4 +37,6 @@ main(){
 	printf("Telefone = %s\n",telefone);
 	printf("Celular = %s\n",celular);
 	printf("Nota = %.2f\n",nota);
+	
+	return 0;
 }

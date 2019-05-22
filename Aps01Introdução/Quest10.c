@@ -20,13 +20,15 @@ float FunPot( int y){
 	   
 int main(){
 	
-	int pot;
+	int expoente;
 	printf("Digite a base: ");
 	scanf("%f",&base);
-	printf("Digite a potencia: ");
-	scanf("%d",&pot);
-     float potencia = FunPot(pot);
-     printf("\n%.2f elevado a %d =  %.2f\n",base,pot,potencia);
+	printf("Digite o expoente: ");
+	scanf("%d",&expoente);
+     float potencia = FunPot(expoente);
+     printf("\n%.2f elevado a %d =  %.2f\n",base,expoente,potencia);
+     
+    
 	
 	
 	

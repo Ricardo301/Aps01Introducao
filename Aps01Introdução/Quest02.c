@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include <stdlib.h>
 
-main(){
+int main(){
 	int num[9], soma,i;
-	float media;
+
 	
 	for( i = 0; i<10;i++){
 		printf("Digite um numero : ");
@@ -20,9 +20,11 @@ main(){
 		
 	}
 	printf("\n");
-	media = (float)soma/10;
+
 	printf("Soma = %d\n",soma);
-	printf("Media = %.2f",media);
+	printf("Media = %.2f",(float)soma/10);
+	
+	return 0;
 	
 	
 	

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-main(){
+int main(){
 	float produto;
 	float lucro;
 	printf("Digite o valor do produto : RS ");
@@ -14,8 +14,8 @@ main(){
 		lucro = produto*0.5;
 	}
 	
-	printf("Valor da venda RS %.2f",lucro+produto);
-	
+	printf("Valor da venda RS %.2f\n",lucro+produto);
+	return 0;
 	
 }
 	

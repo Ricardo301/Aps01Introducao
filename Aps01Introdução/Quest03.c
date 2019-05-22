@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-main(){
+int main(){
 	int num;
 	printf("Digite um numero: ");
 	scanf("%d",&num);
@@ -16,5 +16,7 @@ main(){
 	 if (num>=100 && num<=170){
 		printf("Numero entre 100 e 170\n");
 	}
+	
+	return 0;
 	
 }

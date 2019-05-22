@@ -7,8 +7,10 @@ int main(){
 	for(;;){
 		printf("Numero: ");
 		scanf("%d",&num);
-		 if(num<=0){
+		 if(num==0){
 			break;
+		}else if (num<0){
+			continue;
 		}
 		
 		
@@ -22,8 +24,8 @@ int main(){
 		
 		
 	}
-	printf("Multiplos de 2 %d \n",mult2);
-	printf("Multiplos de 5 %d ",mult5);
+	printf("Multiplos de 2 = %d \n",mult2);
+	printf("Multiplos de 5 = %d ",mult5);
 	
 	
 	

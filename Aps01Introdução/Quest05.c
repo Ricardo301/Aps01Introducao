@@ -8,6 +8,7 @@ int main(){
 	printf("Numero: ");
 	scanf("%d",&num);
     printf("\n");
+    
 	for(i=1;i<=num;i++){
 		printf("%d ",num);
 	  

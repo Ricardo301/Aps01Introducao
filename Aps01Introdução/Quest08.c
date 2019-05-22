@@ -17,9 +17,9 @@ int main (){
 		}
 	}
 	printf("\n");
-	printf("Faixa 1 : 10-50 %d\n",cont10_50);
-	printf("Faixa 2 : 60-110 %d\n",cont60_110);
-	printf("Faixa 3 : 120-150.5 %d\n",cont120_150);
+	printf("Faixa 1 : 10-50 = %d\n",cont10_50);
+	printf("Faixa 2 : 60-110 = %d\n",cont60_110);
+	printf("Faixa 3 : 120-150.5 = %d\n",cont120_150);
 	
 	return 0;
 }

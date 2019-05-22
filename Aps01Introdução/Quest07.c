@@ -11,7 +11,7 @@ int main(){
 	 
 		if(num<0){
 			break;
-		}else if((num>20) && (num<50)){
+		}else if((num>=20) && (num<=50)){
 			num20_50++;
 		}else if((num>=0) && (num<4 )){
 			menor4++;

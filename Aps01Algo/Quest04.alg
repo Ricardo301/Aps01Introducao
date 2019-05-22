@@ -15,7 +15,7 @@ leia(mes)
 escreva("Ano: ")
 leia(ano)
 idade<- 2019-ano
-limpatela
+escreval("==================================================================")
 
 escreval(nome," tem ",idade," anos.")
 escreval("Data de nascimento:")
