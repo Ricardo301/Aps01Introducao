@@ -1,9 +1,9 @@
-
+#include <stdio.h>
 int main()
 {
 int i;
 int j;
-int A[3][2]={7,3,1,4,8};
+int A[3][2]={7,3,1,4,8,0};
 int B[3][2]={8,1,4,2,3,2};
 int C[3][2];
 
