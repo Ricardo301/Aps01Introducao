@@ -15,7 +15,7 @@ int main()
             soma += num;
         }
 
-    } while (num < 0 || num % 2 == 0);
+    } while (num < 0 && num % 2 == 0);
 
     printf("Soma = %d", soma);
     return 0;
