@@ -13,7 +13,7 @@ int Soma(int n)
 int main()
 {
     int num;
-    printf("Digite o valor até onde deve ser somado: ");
+    printf("Digite o valor ate onde deve ser somado: ");
     scanf("%d", &num);
 
     printf("%d", Soma(num));

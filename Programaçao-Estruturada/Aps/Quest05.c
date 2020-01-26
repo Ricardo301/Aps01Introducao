@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-    int num, soma;
+    int num, soma=0;
 
     printf("Soma de numeros negativos: \n");
     while (1)
